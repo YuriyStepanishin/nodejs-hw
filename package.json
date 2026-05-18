@@ -1,0 +1,13 @@
+{
+  "name": "nodejs-hw",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Юрій Степанишин <y.stepanishin@gmail.com>",
+  "license": "ISC",
+  "type": "commonjs"
+}
