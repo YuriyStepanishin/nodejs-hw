@@ -19,7 +19,6 @@ const noteSchema = new Schema(
       type: String,
       enum: TAGS,
       default: 'Todo',
-      index: 1,
     },
   },
   {
