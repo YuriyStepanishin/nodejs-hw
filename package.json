@@ -1,21 +1,35 @@
 {
-  "name": "nodejs-hw",
+  "name": "y",
   "version": "1.0.0",
   "description": "",
+  "keywords": [],
+  "homepage": "https://github.com/YuriyStepanishin/nodejs-hw#readme",
+  "bugs": {
+    "url": "https://github.com/YuriyStepanishin/nodejs-hw/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YuriyStepanishin/nodejs-hw.git"
+  },
+  "license": "ISC",
+  "author": "Юрій Степанишин <y.stepanishin@gmail.com>",
+  "type": "module",
   "main": "server.js",
   "scripts": {
     "start": "node src/server.js",
     "dev": "nodemon src/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "Юрій Степанишин <y.stepanishin@gmail.com>",
-  "license": "ISC",
-  "type": "module",
   "dependencies": {
+    "bcrypt": "^6.0.0",
+    "celebrate": "^15.0.3",
+    "cookie-parser": "^1.4.7",
     "cors": "^2.8.6",
     "dotenv": "^17.4.2",
     "express": "^5.2.1",
+    "http-errors": "^2.0.1",
+    "mongoose": "^9.6.2",
+    "nanoid": "^5.1.11",
     "pino-http": "^11.0.0"
   },
   "devDependencies": {
