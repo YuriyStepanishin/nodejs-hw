@@ -38,7 +38,7 @@ userSchema.methods.toJSON = function () {
 };
 
 userSchema.pre('save', function () {
-  if (this.email) {
+  if (!this.username) {
     this.username = this.email;
   }
 });
